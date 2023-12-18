@@ -1,0 +1,14 @@
+Bluetooth Controlled RC Car
+
+
+How the code works :
+
+-The code reads a character value from a Bluetooth device, and based on the received command, it controls the car's movement.
+
+-The code starts with defining the pins used to control the car's motors. Then, in the setup function, it sets the defined pins as output pins and starts the serial communication.
+
+-In the loop function, the code waits for incoming data from the Bluetooth device. Once a character is available, it is stored in the variable "cmd." Then, the code checks the value of "cmd" and executes the corresponding action.
+
+
+
+
